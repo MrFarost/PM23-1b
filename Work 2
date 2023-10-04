@@ -1,1 +1,28 @@
+import math
 
+
+def task1():
+    x = 1
+    y = 3
+    z = 2
+    a = (math.sqrt(abs(x ** 2 - 6)) - math.sqrt(abs(y ** 2 - 5))) /\
+        (1 + x ** 2 / (y ** 3 + 1) + y ** 2 / (x ** 3 + 1))
+    #
+    b = x ** 3 * (math.atan(z)**3 + math.e)
+    print("Ответ:")
+    print('a =', a)
+    print('b =', b)
+
+
+def task2():
+    a = 2
+    b = -1
+    c = 3
+    x = float(input('x = '))
+    y = (pow(3,1/(x + a))) + (c * x**2 / b + x)
+    print('x =', y)
+    
+
+def task3():
+    x = float(input('x = '))
+    y = math.cos
