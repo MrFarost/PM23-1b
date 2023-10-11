@@ -16,14 +16,14 @@ def task2():
     b = -2
     x = float(input('x = '))
     y = (math.sqrt(x + a)) + ((x ** 2 + b) / x)
-    print('x =', y)
+    print('f(x) =', y)
 
 
 def task3():
     x = float(input('x = '))
     y =math.sin(math.sqrt(x)) + math.cos(math.sqrt(x))
-    print('x =', y)
+    print('f(x) =', y)
 
 
 def task4():
-    
+
