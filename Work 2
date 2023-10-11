@@ -20,10 +20,10 @@ def task2():
     c = 3
     x = float(input('x = '))
     y = (pow(3,1/(x + a))) + (c * x**2 / b + x)
-    print('x =', y)
+    print('f(x) =', y)
 
 
 def task3():
     x = float(input('x = '))
     y = math.cos(math.sin(math.cos(1 / x ** 2) ** 2) ** 3) ** 2 - abs(x ** 3 + 3 ** x)
-    print('x =', y)
+    print('f(x) =', y)
