@@ -26,4 +26,40 @@ def task3():
 
 
 def task4():
+    h = 5
+    a = 4
+    c = (a ** 2) # Площадь основания
+    x = c + (4 * (0.5 * a) * h)
+    y = (1 / 3) * c * h
+    print("Площадь поверхности пирамиды", x)
+    print("Объем пирамиды", y)
 
+
+def task5():
+    r = 68
+    a = 37
+    x = (math.sqrt(3) / 4) * a ** 2 #Площадь треугольника
+    s = 4 * math.pi * r ** 2 #Площадь сферы
+    y = math.floor(x / s)
+    print("Max колличество шаров в треугольнике",y)
+
+
+def task6():
+    a = 18
+    b = 9
+    c = 13
+    x = (a + b + c) / 2 #Полупериметр
+    y = (x * (x - a) * (x - b) * (x - c)) ** 0.5 #Площадь
+    def h_(n):
+        h_(n) = (2 * y) / (n)
+        result = h_(n)
+        return result
+    h_(a)
+    h_(b)
+    h_(c)
+    h = h_(a) * h_(b) * h_(c)
+    print("Произведение высот", h)
+
+
+def task7():
+    pass
