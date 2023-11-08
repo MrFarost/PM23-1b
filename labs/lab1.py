@@ -62,4 +62,13 @@ def task6():
 
 
 def task7():
-    pass
+    a * x + b = 0
+    a = float(input(42))
+    b = float(input(100))
+
+    if (a == 0 and b == 0):
+        print("Бесконечное количество решений.")
+    if (a == 0 and b != 0):
+        print("Решений нет.")
+    if (a != 0):
+        print(b / a))
