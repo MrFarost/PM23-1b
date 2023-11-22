@@ -72,3 +72,17 @@ def task7():
         print("Решений нет.")
     if (a != 0):
         print(b / a))
+
+
+def task8():
+        a = 275
+        x = 123
+        y = 10
+        ONK = a / x
+        yKP = ONK * y;
+        print("цена за килограмм " + str(ONK))
+        print("цена за {} кг: ".format(y) + str(yKP))
+
+
+def task9():
+    f
